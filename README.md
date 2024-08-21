@@ -11,3 +11,6 @@ Linux maybe
 2. configurate mongodb and Awvs
 3. python2 ./migration/db.init
 4. python2 yandi_scanner.py
+
+### secgpt
+
