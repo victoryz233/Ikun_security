@@ -7,11 +7,11 @@
 
 import threading
 from flask import Flask
-from yandi.app import app
+from ikun.app import app
 from gevent.pywsgi import WSGIServer
-from yandi.views.modules.scanner.poc_scanner import PoCScannerLoop
-from yandi.views.modules.auth_tester.auth_scanner import AuthTesterLoop
-from yandi.views.modules.discovery.asset_discovery import DiscoveryLoop
+from ikun.views.modules.scanner.poc_scanner import PoCScannerLoop
+from ikun.views.modules.auth_tester.auth_scanner import AuthTesterLoop
+from ikun.views.modules.discovery.asset_discovery import DiscoveryLoop
 from instance import config
 
 ProductionConfig = config.ProductionConfig
